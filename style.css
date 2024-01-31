@@ -63,12 +63,13 @@ p {
     }
 }
 .main-container {
-    position: sticky;
-    top: 0;
+    position: relative;
+    /* position: sticky;
+    top: 0; */
     background-image: url('./first-in-town.jpeg');
     background-attachment: fixed;
     background-size: cover;
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     justify-content: flex-end;
     .copy {
@@ -78,7 +79,7 @@ p {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        padding: 0 50px 0 0;
+        padding: 30px 50px;
         p {
             margin: 0 0 20px 0;
         }
@@ -127,4 +128,36 @@ p {
     top: 0; */
     background-attachment: fixed;
     background-size: cover;
+}
+
+@media screen and (max-width: 1024px) {
+    .top-container {
+        & h1 {
+            font-size: 5rem;
+        }
+    }
+    .main-container {
+        &:after {
+            background-image: linear-gradient(90deg, transparent -100%, #fff 120%);
+        }
+        .copy {
+            flex: 0 0 100%;
+            padding: 30px 20px;
+            display: block;
+            img {
+                margin: 0 auto;
+                display: block;
+                max-width: 100%;
+                height: auto;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .top-container {
+        & h1 {
+            font-size: 2rem;
+        }
+    }
 }
