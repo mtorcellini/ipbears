@@ -68,7 +68,7 @@ p {
     position: relative;
     /* position: sticky;
     top: 0; */
-    background-image: url('./first-in-town.jpeg');
+    background-image: url('./first-in-town.jpg');
     background-attachment: fixed;
     background-size: cover;
     min-height: 100vh;
