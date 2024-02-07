@@ -166,7 +166,7 @@ p {
             flex: 0 0 100%;
             padding: 30px 20px;
             display: block;
-            img {
+            & img {
                 margin: 0 auto;
                 display: block;
                 max-width: 100%;
