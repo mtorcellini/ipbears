@@ -31,7 +31,7 @@ p {
     align-items: center;
     flex-wrap: wrap;
     .clip-text {
-        background-image: linear-gradient(90deg, transparent -200px, #fff calc(100% + 100px)), url('./first-in-town.jpeg'); 
+        background-image: linear-gradient(90deg, transparent -200px, #fff calc(100% + 100px)), url('./first-in-town.jpg'); 
         background-size: cover;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
@@ -129,7 +129,7 @@ p {
     min-height: 100vh;
     background-color: lavender;
     position: relative;
-    background-image: url('./cubs-in-tow.png');
+    background-image: url('./cubs-in-tow.jpg');
     /* position: sticky;
     top: 0; */
     background-attachment: fixed;
