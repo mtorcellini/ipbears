@@ -23,7 +23,7 @@ p {
     line-height: 1.35;
 }
 .top-container {
-    height: 100vh;
+    min-height: 100vh;
     background-color: hsla(5,15%, 8%, 1);
     /* background-color: #000; */
     display: flex;
